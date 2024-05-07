@@ -22,7 +22,17 @@ function attackHandler(){
     console.log(attackHandler)
     attackPoints--
     console.log("current attack points", attackPoints);
+    renderAttacks()
 
+}
+
+function hitPtHandler(){
+    hitpoints--
+    console.log("current hitPt", hitpoints)
+}
+
+function renderAttacks(){
+console.log("renderAttacks()")
 }
 
 onReady()
