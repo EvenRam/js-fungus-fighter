@@ -15,12 +15,12 @@
         <img src="./images/forest-bg-dk.png" alt="forest bg" class="img-bg">
 
         <div class="attacks">
-            <div class="ap-text">100 AP</div>
+            <div id="attackPoints" class="ap-text">100 AP</div>
             <progress id="ap-meter" value="100" max="100"></progress>
-            <button class="attack-btn arcane-scepter"></button>
-            <button class="attack-btn entangle"></button>
-            <button class="attack-btn dragon-blade"></button>
-            <button class="attack-btn star-fire"></button>
+            <button class="attack-btn arcane-scepter" onClick="attackHandler()"></button>
+            <button class="attack-btn entangle" onClick="attackHandler()"></button>
+            <button class="attack-btn dragon-blade" onClick="attackHandler()"></button>
+            <button class="attack-btn star-fire" onClick="attackHandler()"></button>
         </div>
 
         <div class="enemy">
